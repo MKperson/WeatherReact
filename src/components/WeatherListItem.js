@@ -9,7 +9,8 @@ class WeatherListItem extends Component {
 
         return (
             <div className="weather-list-item">
-                <h2> <img src={img} alt={day.weather[0].description} /> {date.getMonth() + 1} / {date.getDate()}</h2>
+            
+                <h2> <img src={img} alt={day.weather[0].description}/> {date.getMonth() + 1} / {date.getDate()}</h2>               
                 <h3>{day.temp.min.toFixed(1)}&deg;F &#124; {day.temp.max.toFixed(1)}&deg;F</h3>
             </div >
         );
