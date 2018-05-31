@@ -5,7 +5,7 @@ class CurrentDay extends Component {
     getWeekDay(date) {
         const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday']
         const weekday = date.getDay();
-        console.log(weekday);
+        //console.log(weekday);
         return dayNames[weekday];
     }
     render() {
