@@ -10,7 +10,9 @@ class WeatherList extends Component {
                 <WeatherListItem
                     key={day.dt}
                     day={day}
-                    index={index} />)}
+                    index={index} 
+                    onDayClick={this.props.onDayClick}
+                    />)}
         </div>;
     }
 }
